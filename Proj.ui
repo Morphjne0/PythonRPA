@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testTab</class>
+ <widget class="QMainWindow" name="testTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="central">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>641</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <attribute name="title">
+      <string>연도별 IT계열 수요 인원</string>
+     </attribute>
+     <widget class="QLabel" name="pic1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>0</width>
+        <height>0</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>C:/Users/don99/Desktop/PythonWorkSpace/정보통신수요인원.png</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>연도별 IT계열 세부직종 구인현황</string>
+     </attribute>
+     <widget class="QLabel" name="pic2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-30</y>
+        <width>641</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextEditable</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cb1">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>10</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>전체</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>클라우드</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>빅데이터</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>IoT</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>인공지능</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VR/AR/MR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>블록체인</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget">
+     <attribute name="title">
+      <string>11월 지역별 구인현황</string>
+     </attribute>
+     <widget class="QLabel" name="pic3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-30</y>
+        <width>641</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cb2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>서울</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>경기</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>인천</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>부산</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn1">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
